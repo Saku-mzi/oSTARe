@@ -40,16 +40,16 @@ body {
     }
 
     :nth-child(1) {
-      margin: 10px 0 0 20%;
+      margin: 10px 0 0 30%;
     }
     :nth-child(2) {
-      margin: 0% 0% 0 70%;
+      margin: 0% 0% 0 60%;
     }
     :nth-child(3) {
       margin: 10px 0 0 40%;
     }
     :nth-child(4) {
-      margin: 10px 0 0 10%;
+      margin: 10px 0 0 20%;
     }
     :nth-child(5) {
       margin: 10px 0 0 50%;
