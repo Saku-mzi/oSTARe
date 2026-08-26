@@ -37,26 +37,32 @@ body {
 
     :nth-child(1) {
       margin: 10px 0 0 20%;
+      color: #deb14e;
     }
     :nth-child(2) {
       margin: 0% 0% 0 50%;
+      color: #3f5ba9;
     }
     :nth-child(3) {
       margin: 10px 0 0 30%;
+      color: #deb14e;
     }
     :nth-child(4) {
       margin: 10px 0 0 10%;
+      color: #3f5ba9;
     }
     :nth-child(5) {
       margin: 10px 0 0 40%;
+      color: #deb14e;
     }
     .bio {
       width: 300px;
-      transition: opacity 1s;
-      opacity: 0.1;
+      transition: all 1s;
+      padding: 20px;
     }
     :hover {
-      opacity: 100%;
+      opacity: 1;
+      filter: invert(1);
     }
   }
 }
