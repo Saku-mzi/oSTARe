@@ -4,7 +4,6 @@
 }
 
 body {
-  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -34,28 +33,28 @@ body {
     text-align: justify;
     gap: 1rem;
     margin-top: 50px;
+    a {
+      text-decoration: none;
+      color: #b18c3d;
+    }
 
     :nth-child(1) {
       margin: 10px 0 0 20%;
-      color: #deb14e;
     }
     :nth-child(2) {
       margin: 0% 0% 0 50%;
-      color: #3f5ba9;
     }
     :nth-child(3) {
       margin: 10px 0 0 30%;
-      color: #deb14e;
     }
     :nth-child(4) {
       margin: 10px 0 0 10%;
-      color: #3f5ba9;
     }
     :nth-child(5) {
       margin: 10px 0 0 40%;
-      color: #deb14e;
     }
     .bio {
+      color: #deb14e;
       width: 300px;
       transition: all 1s;
       padding: 20px;
@@ -63,6 +62,7 @@ body {
     :hover {
       opacity: 1;
       filter: invert(1);
+      scale: 1.02;
     }
   }
 }
