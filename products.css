@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+
+  #logo {
+    background-color: #3f5ba9;
+    position: fixed;
+    display: flex;
+    place-content: center;
+    width: 100%;
+    img {
+      margin: 10px 0 10px 0;
+      width: 50px;
+      transition: all 0.5s;
+    }
+    :hover {
+      scale: 1.04;
+      cursor: pointer;
+    }
+  }
+}
