@@ -31,10 +31,12 @@ main {
 }
 
 #container {
-  background-color: #3f5ba9;
   width: 500px;
   height: 500px;
-  border-radius: 200px 200px 10px 10px;
+  border-radius: 100px 200px 10px 10px;
+  contain: content;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
