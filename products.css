@@ -4,10 +4,6 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-
   #logo {
     background-color: #3f5ba9;
     position: fixed;
@@ -24,4 +20,23 @@ body {
       cursor: pointer;
     }
   }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background-color: #3f5ba9;
+  width: 500px;
+  height: 500px;
+  border-radius: 200px 200px 10px 10px;
+}
+
+h3 {
+  margin: 20px 0 20px 0;
 }
