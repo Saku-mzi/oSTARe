@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "src": "images/unf.png",
+      "name": "Username not found",
+      "notes": "jasmine, oud, citrus "
+    },
+
+    {
+      "src": "images/blankSpace.png",
+      "name": "Username not found",
+      "notes": "jasmine, oud, citrus "
+    },
+    {
+      "src": "images/nlol.png",
+      "name": "Nine lives. One left",
+      "notes": "honey, rose, orchid "
+    },
+    {
+      "src": "images/unexpectedCharacter.png",
+      "name": "unexpected character",
+      "notes": "jasmine, oud, citrus "
+    },
+    {
+      "src": "images/404.png",
+      "name": "404 not found",
+      "notes": "jasmine, oud, citrus "
+    }
+  ]
+}

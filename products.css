@@ -37,6 +37,15 @@ main {
   contain: content;
   display: flex;
   justify-content: center;
+
+  img {
+    transition: all 0.5s;
+  }
+
+  :hover {
+    scale: 1.04;
+    cursor: pointer;
+  }
 }
 
 h3 {
