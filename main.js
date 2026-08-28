@@ -7,9 +7,11 @@ const fragranceName = document.getElementById("fName");
 const note = document.getElementById("notes");
 
 function show(item) {
+  photo.onload = () => {
+    fragranceName.innerHTML = item.name;
+    note.textContent = item.notes;
+  };
   photo.src = item.src;
-  fragranceName.innerHTML = item.name;
-  note.textContent = item.notes;
 }
 
 document.getElementById("pic").onclick = () => {

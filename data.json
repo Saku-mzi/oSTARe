@@ -8,8 +8,8 @@
 
     {
       "src": "images/blankSpace.png",
-      "name": "Username not found",
-      "notes": "jasmine, oud, citrus "
+      "name": "_",
+      "notes": "oud, water, spring grass "
     },
     {
       "src": "images/nlol.png",
@@ -19,12 +19,12 @@
     {
       "src": "images/unexpectedCharacter.png",
       "name": "unexpected character",
-      "notes": "jasmine, oud, citrus "
+      "notes": "pineapple, smoked tobacco, cherry "
     },
     {
       "src": "images/404.png",
       "name": "404 not found",
-      "notes": "jasmine, oud, citrus "
+      "notes": "mystry"
     }
   ]
 }
