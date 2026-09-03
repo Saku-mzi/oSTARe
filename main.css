@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   place-items: center;
+  overflow-x: hidden;
 
   #logo {
     background-color: #3f5ba9;
@@ -69,6 +70,42 @@ body {
       opacity: 1;
       filter: invert(1);
       scale: 1.02;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  body #logo {
+    z-index: 10;
+  }
+
+  body #content {
+    box-sizing: border-box;
+    height: auto;
+    min-height: calc(100dvh - 50px);
+    width: 100%;
+    padding: 1rem;
+    margin-top: 50px;
+    gap: 0.5rem;
+    text-align: left;
+
+    :nth-child(1),
+    :nth-child(2),
+    :nth-child(3),
+    :nth-child(4),
+    :nth-child(5) {
+      margin: 0;
+    }
+
+    .bio {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 300px;
+      padding: 1rem 0;
     }
   }
 }
