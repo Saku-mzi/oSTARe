@@ -11,6 +11,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="products.css" />
+    <script defer type="module" src="main.js"></script>
   </head>
   <body>
     <div id="logo">
@@ -18,12 +19,129 @@
     </div>
 
     <main>
-      <div id="container">
-        <img id="pic" src="images/cover.png" alt="" width="130%" />
+      <section class="carousel" aria-label="Fragrance collection">
+        <input
+          class="carousel-selection"
+          type="radio"
+          name="fragrance"
+          id="show-1"
+          aria-label="Show Username not found"
+          checked
+        />
+        <input
+          class="carousel-selection"
+          type="radio"
+          name="fragrance"
+          id="show-2"
+          aria-label="Show Blank Space"
+        />
+        <input
+          class="carousel-selection"
+          type="radio"
+          name="fragrance"
+          id="show-3"
+          aria-label="Show Nine lives. One left"
+        />
+        <input
+          class="carousel-selection"
+          type="radio"
+          name="fragrance"
+          id="show-4"
+          aria-label="Show unexpected character"
+        />
+        <input
+          class="carousel-selection"
+          type="radio"
+          name="fragrance"
+          id="show-5"
+          aria-label="Show 404 not found"
+        />
+        <div class="carousel-stage">
+          <article
+            class="product-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="1 of 5"
+          >
+            <div class="image-frame">
+              <label class="image-action" for="show-2"
+                ><img
+                  src="images/unf.png"
+                  alt="Username not found fragrance bottle; select to see the next fragrance"
+              /></label>
+            </div>
+            <h3>Username not found</h3>
+            <p>jasmine, oud, citrus</p>
+          </article>
+          <article
+            class="product-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="2 of 5"
+          >
+            <div class="image-frame">
+              <label class="image-action" for="show-3"
+                ><img
+                  src="images/blankSpace.png"
+                  alt="Blank Space fragrance bottle; select to see the next fragrance"
+              /></label>
+            </div>
+            <h3>_</h3>
+            <p>oud, water, spring grass</p>
+          </article>
+          <article
+            class="product-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="3 of 5"
+          >
+            <div class="image-frame">
+              <label class="image-action" for="show-4"
+                ><img
+                  src="images/nlol.png"
+                  alt="Nine lives. One left fragrance bottle; select to see the next fragrance"
+              /></label>
+            </div>
+            <h3>Nine lives. One left</h3>
+            <p>honey, rose, orchid</p>
+          </article>
+          <article
+            class="product-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="4 of 5"
+          >
+            <div class="image-frame">
+              <label class="image-action" for="show-5"
+                ><img
+                  src="images/unexpectedCharacter.png"
+                  alt="Unexpected Character fragrance bottle; select to see the next fragrance"
+              /></label>
+            </div>
+            <h3>unexpected character</h3>
+            <p>pineapple, smoked tobacco, cherry</p>
+          </article>
+          <article
+            class="product-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="5 of 5"
+          >
+            <div class="image-frame">
+              <label class="image-action" for="show-1"
+                ><img
+                  src="images/404.png"
+                  alt="404 Not Found fragrance bottle; select to see the first fragrance"
+              /></label>
+            </div>
+            <h3>404 not found</h3>
+            <p>mystery</p>
+          </article>
+        </div>
+      </section>
+      <div class="addToCart-slot">
+        <button type="button" class="addToCart"><b>dont click</b></button>
       </div>
-      <h3 id="fName">.oSTARe.</h3>
-      <p id="notes">za</p>
     </main>
-    <script defer type="module" src="main.js"></script>
   </body>
 </html>
